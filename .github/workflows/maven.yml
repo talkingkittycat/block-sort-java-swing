@@ -26,3 +26,7 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2.3.1
+      with:
+        name: block-sort
+        path: error
+    
